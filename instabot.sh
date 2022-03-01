@@ -19,11 +19,12 @@ var2=$(echo $var | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 
-printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by cyber kallan (thanks to linuxchoice )\e[0m\n" }
+printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m recoded by sajid banday (thanks to coding kashmir )\e[0m\n" }
 
 
 
-login_user() {
+login_user() 
+{
 
 
 if [[ $user == "" ]]; then
