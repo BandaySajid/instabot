@@ -23,7 +23,8 @@ apt install bash
 apt install git
 git clone https://github.com/BandaySajid/instabot
 cd instabot
-bash instabot
+sed -i 's/\r//' instabot.sh
+bash instabot.sh
 choose option eg. 2 to increase followers
 now enter your insta username then password.
 Remember We are not responsible if anything happens to your account
